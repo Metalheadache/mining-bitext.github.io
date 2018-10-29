@@ -1,8 +1,6 @@
 ## Mining Bitext - Constructing parallel corpus from movie subtitles
 
-You can use the [editor on GitHub](https://github.com/Metalheadache/mining-bitext.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This project aims to introduce a methodology for constructing aligned English-Simplified Chinese corpora from movie subtitles. Subtitles that consist of two languages usually provide viewers with alignment of sentences manually done by the author. Since the common length-based algorithm for alignment is not desirable when provided with short spoken sentences, we present a simple methodology to use statistical lexical cues to align the subtitle. This is also a viable solution for improving machine translation systems.
 
 ### Markdown
 
