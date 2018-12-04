@@ -15,3 +15,6 @@ For this project, we propose a simple method that consider both time frames and 
 But before alignment can be applied, the subtitle corpus needs to undergo a few preprocessing steps. We will need to perform tokenization and segmentation to English and Chinese subtitles. After that, it is crucial that we select corresponding words in two languages. When it comes to individual words, in English grammar we use prefix and suffix to define different usage of a word, but in Chinese same words come with different meaning in different situations. That's when we will introduce lexical cue extension as a solution to the issue.
 
 Previous algorithms are solely based on the time frame, which is reliable at times, but it ignores the richer information in the context. To improve alignment accuracy, we need to consider the lexical content. Anchor points are needed to be found in the context of subtitle pairs, the most relevant word pairs will be decided afterwards, ultimately alignment for a whole sentence will be completed.
+
+
+Our Moses machine translation system https://buffalo.box.com/s/behrk2wb1l4gdvthw4j4hgg7c8x0x2dc
